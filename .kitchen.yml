@@ -15,4 +15,3 @@ suites:
 - name: default
   run_list:
     - recipe[noipv6]
-    - recipe[minitest-handler]
