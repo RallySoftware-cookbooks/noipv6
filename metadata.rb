@@ -8,6 +8,5 @@ version          '1.0'
 
 recipe           'noipv6', 'Installs/Configures noipv6'
 
-%w{ centos fedora oracle debian ubuntu }.each do |os|
-  supports os
-end
+
+supports 'centos'
