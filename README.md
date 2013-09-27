@@ -1,30 +1,15 @@
-Description
-===========
-
+## Description
 Installs/Configures noipv6
 
-Requirements
-============
+## Requirements
+### Platform
+* Centos 6.4
 
-* Chef 0.8+
-
-Attributes
-==========
-
-Usage
-=====
-
-    "run_list": [
-      "recipe[noipv6]"
-    ]
-
-default
-----
-
+## Recipe
+### default
 Installs/Configures noipv6
 
-License and Author
-==================
+## License
 Copyright (c) Rally Software Development Corp. 2013
 
 Distributed under the MIT License.
