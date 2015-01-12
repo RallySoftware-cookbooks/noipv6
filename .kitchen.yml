@@ -10,6 +10,7 @@ platforms:
     customize:
       cpus: 1
       memory: 256
+    vm_hostname: test.example.com
 suites:
 - name: noipv6
   run_list:
