@@ -1,4 +1,3 @@
 NETWORKING=yes
 NETWORKING_IPV6=no
-HOSTNAME=<%= node['hostname'] %>
-GATEWAY=<%= node['network']['default_gateway'] %>
+HOSTNAME=<%= node['fqdn'] %>
