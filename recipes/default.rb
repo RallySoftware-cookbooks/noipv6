@@ -24,3 +24,14 @@ template '/etc/sysconfig/network' do
   mode '0644'
 end
 
+template '/etc/modprobe.d/ipv6.conf' do
+  source 'ipv6.conf.erb'
+  owner 'root'
+  group 'root'
+  mode '0440'
+end
+
+service 'ip6tables' do
+  action [ :stop, :disable ]
+end
+
