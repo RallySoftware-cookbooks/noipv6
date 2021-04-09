@@ -3,8 +3,6 @@ provisioner:
   name: chef_zero
   product_name: chef
   product_version: 14
-  client_rb:
-    environment: kitchen
 
 verifier:
   name: inspec
